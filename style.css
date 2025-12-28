@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+
+  /* background image */
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.player {
+  background: white;
+  width: 320px;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+  background: rgba(255, 255, 255, 0.85); /* glass effect */
+  backdrop-filter: blur(8px);
+  background:mediumorchid;
+  color: black;
+}
+
+
+
+.player img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.controls button {
+  font-size: 22px;
+  margin: 10px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin: 10px 0;
+}
